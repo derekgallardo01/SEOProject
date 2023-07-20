@@ -1,0 +1,6 @@
+﻿"Address","Status Code","Status","Inlinks","Matched Robots.txt Line"
+"https://youtu.be/Z2jd3LjBDPM","0","Blocked by robots.txt","4","Line:4 /"
+"https://www.surveymonkey.com/results/SM-HKGQXN9J/","0","Blocked by robots.txt","2","Line:12 /results/*"
+"https://dl.acm.org/citation.cfm?id=1979862","0","Blocked by robots.txt","2","Line:14 /*.cfm"
+"https://greatergood.berkeley.edu/images/application_uploads/Emmons-CountingBlessings.pdf","0","Blocked by robots.txt","2","Line:24 /images/application_uploads/"
+"https://www.sciencedirect.com/science/article/abs/pii/S1525505016304607?np=y","0","Blocked by robots.txt","2","Line:50 *?np=y"

@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+   <!-- Intro Section-->
+    <section class="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <h2 class="h3">{{ help.title }}</h2>
+            <p class="text-big"><div class="post-body">
+                  {{ help.content | safe }}
+                </div></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+{% endblock content %}

@@ -1,0 +1,55 @@
+{% extends "admin/change_form.html" %}
+
+
+
+{% block inline_field_sets %}
+<script>
+if (!$) {
+    $ = django.jQuery;
+	
+}
+
+function submt_form(){
+$(".content_load").css("display","block");
+$("#googlesearchresult_form").submit();
+//$("#content-main").html('<img src="/static/img/InternetSlowdown.gif">');
+
+
+
+}
+</script>
+<style type="text/css">
+.submit-row{display:none}
+.content_load{display:none}
+
+.content{position: relative;}
+.overlay{position: absolute;left: 0; top: 0; right: 0; bottom: 0;z-index: 2;background-color: rgba(255,255,255,0.8);}
+.overlay-content {
+    position: absolute;
+    transform: translateY(-50%);
+     -webkit-transform: translateY(-50%);
+     -ms-transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #555;
+}
+
+</style>
+
+<div class="content_load">
+    <div class="overlay"><div class="overlay-content"><img src="/static/img/InternetSlowdown.gif" alt="Loading..."/></div></div>
+    <!-- Content goes here -->
+</div>
+
+{% for inline_admin_formset in inline_admin_formsets %}
+    {% include inline_admin_formset.opts.template %} 
+{% endfor %}
+
+<div class="submit-custom_row">
+<input type="button" value="Save" class="default" onclick="submt_form()" name="_save_new">
+
+</div>
+{% endblock %}
+

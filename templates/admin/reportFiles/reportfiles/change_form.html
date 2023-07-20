@@ -1,0 +1,17 @@
+{% extends "admin/change_form.html" %}
+{% block inline_field_sets %}
+
+<style type="text/css">
+.field-filename{display:none}
+</style>
+
+{% for inline_admin_formset in inline_admin_formsets %}
+    {% include inline_admin_formset.opts.template %}
+{% endfor %}
+<fieldset class="module">
+  <h2>Upload Multiple Files</h2>
+  
+  <input name="files_multiple" type="file" multiple />
+</fieldset>
+{% endblock %}
+

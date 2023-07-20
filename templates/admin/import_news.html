@@ -1,0 +1,90 @@
+{% extends "admin/change_form.html" %}
+{% load i18n %}
+
+{% load staticfiles%}
+{% block title %}Change Company Logo | {{SITE_TITLE}}{% endblock %}
+{% block branding %}
+
+<h1 id="site-name">
+    <a href="{% url 'admin:index' %}">
+        <img src="{% static 'logo.jpg' %}" height="40px" />
+    </a>
+</h1>
+
+<!-- <h1 id="site-name"><a href="{% url 'admin:index' %}">{{SITE_TITLE}}</a></h1> -->
+
+{% endblock %}
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+<a href="{% url 'admin:index' %}">{% trans 'Home' %}</a>
+&rsaquo; Upload News
+</div>
+{% endblock %}
+{% block usertools %}
+    
+    <div id="user-tools">
+        {% block welcome-msg %}
+            {% trans 'Welcome,' %}
+            <strong>{% firstof user.get_short_name user.get_username %}</strong>.
+        {% endblock %}
+        {% block userlinks %}
+            {% if site_url %}
+                <a href="{{ site_url }}">{% trans 'View site' %}</a> /
+            {% endif %}
+            {% if user.is_active and user.is_staff %}
+                {% url 'django-admindocs-docroot' as docsroot %}
+                {% if docsroot %}
+                    <a href="{{ docsroot }}">{% trans 'Documentation' %}</a> /
+                {% endif %}
+            {% endif %}
+            
+            
+            {% if user.has_usable_password %}
+            <a href="{% url 'admin:password_change' %}">{% trans 'Change password' %}</a> /
+            {% endif %}
+            <a href="{% url 'admin:logout' %}">{% trans 'Log out' %}</a>
+        {% endblock %}
+    </div>
+    {% endblock %}
+{% block content_title %}
+    <h1> Upload News </h1>
+{% endblock %}
+{% block content %}
+    <div id="content-main">
+        {% block object-tools %}
+        <ul class="object-tools">
+          {% block object-tools-items %}
+            <li>
+              <a href="{% url 'admin:index' %}" class="addlink">
+               <i class="fa fa-arrow-left" aria-hidden="true"></i> Back
+              </a>
+            </li>
+          {% endblock %}
+        </ul>
+    {% endblock %}
+		<form enctype="multipart/form-data" action="" method="post" id="profile_form" >
+			{% csrf_token %}
+			<div>
+			<fieldset class="module aligned ">
+				{% for field in form %}
+				<div class="form-row field-loyalty_points">
+					<div>
+						{{ field.errors }}
+						<label for="{{ field.auto_id }}" {% if field.field.required %} class='required' {% endif %} >{{ field.label }}:
+						</label>
+						 {{ field }}
+						 {% if field.auto_id == 'id_logo' %}
+							{{logo}}
+						 {% endif %}
+					</div>
+				</div>
+				{% endfor %}
+				</fieldset>
+			</div>
+
+			<div class="submit-row">
+				<input value="Save" class="default" name="_save" type="submit">
+			</div>
+	</form>
+</div>
+{% endblock %}

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "my-project-realestate-276818",
+  "private_key_id": "8799e55163f5176c25751f9a1e342625e3736361",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDAXjlYpQPjPwl5\nptKrkl1+SSICwqektwWnSacYvMJyuK1fy9DPY/TJsHw6XZP/VaSe4YBSTLgu0ub5\nN2AvJ+mJSfSruk4yAzRGjaSnjs6TKVUH0uKKFg0PpHNYmX9OwL1u43yxJx6plBLh\nwGP7ij2lqf926L/eNexD4+MIJKaL8Z04VPahXclFzsQlc9+w7DVxsUbPKAT+/4xy\n680FsRI/7tVDroi95H+BBf7FX5gABmBhS1Mg+ppODf92BqUzhyEFi/ZyIETHmbTQ\nPsJgPALjfTVEAPAeN/KxIdpCOVFOnpFu44BzznpePiQRrYXr059apu8klE88qJOZ\ntETsiRgTAgMBAAECggEAR7eZJ5w1q9YHgUwZhI+HvZokTOUnPPhi6jBCVK2izMRf\nFrTUv0zjqQHb/qJ+l5XlTrqBba1eiU5lgAoOGOaHYYCp8BAAMRMSvS73cOSDzUd+\nhPExNgvsiKVlv2VSmhivRxUWmrEb9FrZA0MHw3KRcx7CuCEjzwNJdzIRpSqM0OT4\ngTIRaCFC3ug6WJA2uvuRd2sy0NuFijtYmnYvU1Y7LOgBtcIu4whTA1JICPmyCk6d\nJOqXQOw8fNPC7ycKVqRxIAkhIkuxjgIIN14q9fhxW4vH/c4Lsfk1hDuYl0ZdFFJ0\nT+H3PVnXcg3J/XYyxrgFqExLPYICwK7FEZ21/k/bAQKBgQDmw+O/0tuQRoUEH2Ga\nqUoWzQ67tWV/gwnDb9MHz8B2YI/45jniDbb2WibfEFU8Sa5pUE0bpXOwG8o8e+xd\noEr4xxepe1yLHDYZBbiQg5MFJjm2ehhO70aIbkUFL2D39vTznxeKn7o+KenWgNUt\na/pyYl3nCWhwF1jYiS+j9aIZgQKBgQDVZ2753d9Trpacgbj3OIoscTmGChJAheTi\n8j2PPtRdxSoBUnc7epJ0sVdEYv4xjN3FLUOz3hsd3GMtEwoo68CYz4ZiHSKs1mdz\nlZDzrP4+hcsqHOF1KqifMIaNBTF30I7xuTmY0K7149599ZiWOVix6s0TXHchOI2q\npwrEe7/zkwKBgCA8bx1F1FwkLcK0q4rSaUIkJRG9tk8IvB1sCpvFvsoKlTIc3ysf\n5VYmo9V3T6DbXhziFdNt2mpYh3jJiuxNTwvPrBOF4xifuULnlK/DYY9PlrJR/gFQ\n1ZaLaOLfink5K2C48a3wwDCc5EiNuLneop7F9P4oR0mZSVT+XQRXdOyBAoGAKtvN\nE+2Vbo7/vIrpBO2cAnTy4pKfO8ooP9P6vQwXRoXUe9N+Ern5M+px5lAjUPxDhdgj\nYrpWo9ahLGpIfhNq6MW07XuAfUnKGRKOvAGgRhpExT5roUZh+yaZvzStzKxcKPvU\nL3apzMRo6M8sR+9YetL3QM4vNsLO4NkPdoqL8HUCgYA/XM1d04whmkihfz4cDPEg\nP11naXMQDwYcx8Wub8EngedABAJL3iX4W3pcu/JMtUMUjIDxjAofLP+jyURhAHU6\nVAt9ujeYrWowV2+278fqhc17S5AGh9Ewn2y7cO9BhZ/fAptFlPKLo/mh4U8WlHxK\nWul+kJTve/Y/K6Tv+drXNQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "govindderek@my-project-realestate-276818.iam.gserviceaccount.com",
+  "client_id": "113812677123789275536",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/govindderek%40my-project-realestate-276818.iam.gserviceaccount.com"
+}

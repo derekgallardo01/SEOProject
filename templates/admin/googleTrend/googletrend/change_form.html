@@ -1,0 +1,29 @@
+{% extends "admin/change_form.html" %}
+
+
+
+{% block inline_field_sets %}
+<script>
+if (!$) {
+    $ = django.jQuery;
+	
+}
+
+function submt_form(){
+$(".content_load").css("display","block");
+$("#googlesearchresult_form").submit();
+//$("#content-main").html('<img src="/static/img/InternetSlowdown.gif">');
+
+
+
+}
+</script>
+
+
+{% for inline_admin_formset in inline_admin_formsets %}
+    {% include inline_admin_formset.opts.template %} 
+{% endfor %}
+
+
+{% endblock %}
+

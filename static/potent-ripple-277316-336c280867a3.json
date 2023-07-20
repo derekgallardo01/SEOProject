@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "potent-ripple-277316",
+  "private_key_id": "336c280867a3a71e3e4c4a6b28ba03f3f503f32e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCKbcmvUalNDHQk\nBmX2Fep8Nn5rnUTbBG7Oj3kEGM2QuIjPc9KWUytdsdJilUdRBaeK0UCMUhvXmldt\nx8xlhCAUh7yturQ9k9rvX9tkX+Yid9+JczByaSkvFIdk+Fn2ZWljsN21cg+Qvbl0\nmzqsh9Bp+LnfF9JARLicCAzBuMpk3GBWed/kxrl46n7YWfuq0h72IrC1ZHLtDzYn\n8OEB/fuiGZyetDlFu+bobV135SfE4SLmHCDSMvE8rrckilDejNr5MkDLiIgHdn04\nKzGHg/BogFd8+/BPg9Kk5nC9645FpoNJtpFXRICfeTTFQ4N+ZZAlZ8oW2dMWMh/Q\nEMRLWueHAgMBAAECggEANc9alIuOX7SFGxHfpaq8RT+bofJ29xpAhowP8y8/DVAm\nYln4FNZMp7W9ffPgTpb/mz8fM8yhJQzKipKdmiKjo8dl6TSH5t3oP5/H9TswBtsJ\nKnF79iV5zGLTBMVjlxuxvX5dmLA3a8DMbA8BXlrHAcKdYiLs6G2uQ3z/lHhkOJM9\nhhq6G42Lv0Xr/6UsbhbjrlSmfV0Zm4ou/MjiPEmgMLN1qsY5kfI9dsdPcExnBddJ\nUOg9UMzfEoLL+zAzjOaaEbph4vKXlh2PoZQPc2pJxfZdF5NHeOlw6btcm1YZ0HC0\njfgMCvM8693ckGGz3lTVFZ+eq0xHRmmPPFL1FDyzkQKBgQC9gdfzo28AbaztaSok\nZ54fznRpDYAQoIzNHo2RtJBEnr7VNjbPhl3MD7pB0dH3gA+ipFqKfWs6olRJo84+\neBZLE9Q1/U72nGZptjs7/Qux6SCyUldf2OYoFDsjfyRKkR9sWpkqaErOEUF4UpTL\nd6QdxToQNGYSja7Y4J5t0FNn0QKBgQC6/+unghNxWNdZJ6rWmgb0dz/ay9iY0U6t\nrkqLTCnvfAZjzSkayCMb3cLypzy46nsejLw75V3N8+KMwUggJ/e5vb14XCzpQNiU\nLpR9L5H7f8yf6Bcn997PUS7B9ft2ObhiZjkcmh6xlbOHYzMUfum6gH0b96fiiBzN\nYBUdi/gH1wKBgHvxYzsvBhdio/o2kOB0gJ/O2KYotTyqtMwnEnJchQrMRIWQSrLZ\n75jaJHiN8WSNdixqj+kJ9ErKBpSPNQH4aqQ52M5i2PVD/1teW0l1y+NVVRQr9Id0\nhbtq1+70Zdj7J3EnpAtvYJV8BbTbVgPpQQZTixE0JBo4XkXsStIJsbMxAoGAJD78\nz3AgEqVUwHw22ffrBzGiF+fRKPXRGUsiOdPegQP6PRgEMqO+YmVepygRVgplKOvA\nhJ+VyhjOvdetAkac9sy3UAAV2HRwRnCs6YLx+dywrgIPkvixoF+s/32Na0IO4kvM\nICYjcuqAbOqmeP+MkFDdbzFWwkr9wjUwgpSh0+sCgYB4cKvkKHyhjD1XyoVEayLV\n4VzSsi1q4gZ5bp3jBs21MN43zTlhAGzMOQJs0jLImvUiW7JL//KuT/Uee50AX2u3\n2krZotVjVDu6z0p19xdi5Q5+MGt/0Kpy74ELCGTDp7X25JY5KeMThPqj6u2B1Hxl\n46ophYxSH/dOIVM9RcyQnw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "google-trends@potent-ripple-277316.iam.gserviceaccount.com",
+  "client_id": "114084078324658198665",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/google-trends%40potent-ripple-277316.iam.gserviceaccount.com"
+}

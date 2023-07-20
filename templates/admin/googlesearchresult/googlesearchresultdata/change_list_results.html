@@ -1,0 +1,73 @@
+{% load i18n static %}
+{% if result_hidden_fields %}
+<div class="hiddenfields">{# DIV for HTML validation #}
+{% for item in result_hidden_fields %}{{ item }}{% endfor %}
+</div>
+{% endif %}
+{% if results %}
+
+<h4>Color Legend</h4>
+<div id="chartContainer" style="height: 50px; width: 100%;"><ul class="legend">
+    <li><span class="fb_color1"></span> High Total Keyword Density. </li>
+    <!--<li><span class="fb_color2"></span> Awesome</li>
+    <li><span class="fb_color3"></span> Kinda Awesome</li>
+    <li><span class="fb_color4"></span> Not Awesome</li>
+    <li><span class="fb_color5"></span> Not Awesome</li>
+    <li><span class="fb_color6"></span> Not Awesome</li>
+    <li><span class="fb_color7"></span> Not Awesome</li>
+    <li><span class="fb_color8"></span> </li>-->
+    <li><span class="fb_color9"></span>Median Total Keyword Density. </li>
+    <!--<li><span class="fb_color10"></span> . </li>
+    <li><span class="fb_color11"></span> Not Awesome</li>
+    <li><span class="fb_color12"></span> Not Awesome</li>
+    <li><span class="fb_color13"></span> Not Awesome</li>
+    <li><span class="fb_color14"></span> Not Awesome</li>
+    <li><span class="fb_color15"></span> Not Awesome</li>-->
+    <li><span class="fb_color16"></span> Low Total Keyword Density.</li>
+    <!--<li><span class="fb_color17"></span> Not Awesome</li>
+    <li><span class="fb_color18"></span> Not Awesome</li>
+    <li><span class="fb_color19"></span> Not Awesome</li>-->
+    <li><span class="fb_color20"></span> Very low Total Keyword Density. </li>
+</ul></div>
+
+
+<div class="results">
+<table id="result_list">
+<thead>
+<tr>
+{% for header in result_headers %}
+<th scope="col" {{ header.class_attrib }}>
+   {% if header.sortable %}
+     {% if header.sort_priority > 0 %}
+       <div class="sortoptions">
+         <a class="sortremove" href="{{ header.url_remove }}" title="{% trans "Remove from sorting" %}"></a>
+         {% if num_sorted_fields > 1 %}<span class="sortpriority" title="{% blocktrans with priority_number=header.sort_priority %}Sorting priority: {{ priority_number }}{% endblocktrans %}">{{ header.sort_priority }}</span>{% endif %}
+         <a href="{{ header.url_toggle }}" class="toggle {% if header.ascending %}ascending{% else %}descending{% endif %}" title="{% trans "Toggle sorting" %}"></a>
+       </div>
+     {% endif %}
+   {% endif %}
+   <div class="text">{% if header.sortable %}<a href="{{ header.url_primary }}">{{ header.text|capfirst }}</a>{% else %}<span>{{ header.text|capfirst }}</span>{% endif %}</div>
+   <div class="clear"></div>
+
+</th>{% endfor %}
+</tr>
+</thead>
+<tbody>
+
+
+{% for result in results %}
+
+{% if result.form and result.form.non_field_errors %}
+    <tr><td colspan="{{ result|length }}">{{ result.form.non_field_errors }}</td></tr>
+{% endif %}
+
+<tr class="fb_color{{result.7|striptags}}"  >{% for item in result %}{{ item }}{% endfor %}</tr>
+{% endfor %}
+</tbody>
+</table>
+  
+</div>
+{% endif %}
+
+
+

@@ -1,0 +1,1 @@
+default_app_config = 'search_query_analysis.apps.SearchQueryAnalysisConfig'

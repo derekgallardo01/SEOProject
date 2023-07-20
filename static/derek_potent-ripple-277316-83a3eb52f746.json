@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "potent-ripple-277316",
+  "private_key_id": "83a3eb52f74648ab0ed1d67fa628bb898e053b70",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEugIBADANBgkqhkiG9w0BAQEFAASCBKQwggSgAgEAAoIBAQCxLXa5o/XZYwh7\nJtYtZ7dHdm8BHNqezj21J3Q8zUNJfHRZnabsEXZ1gv6birs9dpnEM9tU7I2voHWJ\nthvV2p/1xfDLut/+RtPakMuA5gX+App3X/xrW5gnairCEj+VZlOAAeKrMACY7wsk\n4RI7K4gHdEKUk3ljSEaCTnDh178FTx8yWWNKp5jHPfqQTQGTufP+qbhjcjocSq5a\ngkmdlj8O/CYHEEksTbxpcOfMlox4wAgSlvY3AmtBs/I57N2/Nz945RdMEBu9D+3j\nMnVzCOFnpOjjjTStkei+/56f7DXpz+CzLfYfWHOHGrIfK+KEcnHt3kk/0eDJSOhP\n6yqLRo2BAgMBAAECggEACQuD0A128p+J1l0kwhXFU1VwTGmOXtzzJSNP7Z5yOt86\n0pwf8lVgI3bB9Bt2jHhIeG3oCp9mqo6Nz49jn4TRJZcywDjQoHLZ1AKwM+ryR33X\nKETW/l1TQMBckVKkirZKCRr3iRMa1bPe4RWpJEqIL867aym18MfG2zZBUKM+qAj0\nrmCBFPM4/NgaU7RZb5Q7pr0w/FW/QVz4yON4z7jbKoxyF6fFGTkI8VUh2h0iMEzK\nPVW3uSlfGydK89JvN+iKmsGUmoOJcdfK1wvZTub6CZyaDPHRG55Cf0ZvyMzhTFoE\nfW7x56JbtUrO4v2qHODsu4wq9TMgD1eX1DNmV/1iUQKBgQDf5dbWhcqciNSvlqhd\nCHCjFMxWBS0gZNss/ssIZ9I4yc0pDv6iSthQsQClACq4/goQ/cB1AV1XWifr5OUV\nQ2tXJ4hmyjhP/mcGXDxhGRJIVK7mTirb5tks+QSA2xcwr3h3eXLh2YUqFVLj/R1v\nLXyzto/ixmcEDr6IDDWC1CYysQKBgQDKlMLAE6WlEng4OC/EfYntFe5fcbr2WRQH\nNxyeb2mtPbqerIdy1y0XLhJtmaYc/O3UJGD4mA1SCK0/qHdCeiQe0CBEP5aPKtTA\n4S79eksnNzWj5BO8i1X8Kf4xBzFW6RrMWfuOgG0lDxeaWMfoqPL9T4uwhNJTdfI6\nrCWEy0ab0QKBgAGyq4Nq9lNjkkFWoiY6dyg1cys/1MzHFwZrVDzXFLgLh7vE+lde\nu+84uGmH68sFWiww0HHStdOAwoa+cKJNpZW+ngExjWXF5yAcOPT/jKzxv3XNp/OM\n956osMkNYEqlOgOl7yIZVTIxgTRrafq63JQ8UTEGEifsuLMtbIZ2d2exAoGAfwaE\nj3hCV52bMHVaznSBdd5YmBRyTWJRwqx2D4qA0xZv3GsGi6YNKgnDmGHN3UNjxbAB\n9h8xywyRxebW0SJRX9jVQrY0rBUJTuBkXKDAWxitU9UB4ynjgri6IPgHoh2MpjKO\nIC67QY+TFz8wKt01cEzepJLEZ3z/pHapF/l2juECf21/urFSkDM1rK2SPKcWn314\n0XQWvPu5Jso8myYVgpo1BB0/T6Olttd5qA95Wr6/rCDE1L1U6YYmeZ0YXbLhh1fz\n0GV0QJcKz1ZnguJIorf7N8ClS5S/11+XO/2Nfzyzwlp51gVwz5ZWipK2eqTk42iW\nWwwHW8hE7AR2s0btlQQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "derekgallardo01@potent-ripple-277316.iam.gserviceaccount.com",
+  "client_id": "108611527252771478431",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/derekgallardo01%40potent-ripple-277316.iam.gserviceaccount.com"
+}

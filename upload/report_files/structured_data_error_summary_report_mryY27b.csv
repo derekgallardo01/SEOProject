@@ -1,0 +1,8 @@
+"Structured Data Validation Errors & Warnings Summary Report"
+"Name","Format","Validation Type","Issue Severity","Number of URL's Affected","Issue Message","Sample URL Affected"
+"ContactPoint","JSON-LD","Google Corporate Contact","Warning","538","'http://schema.org/areaServed' property is recommended for 'ContactPoint'","https://clubs.scholastic.com/mindfulness-in-a-jar/84365-rco-us.html"
+"ContactPoint","JSON-LD","Google Corporate Contact","Warning","538","'http://schema.org/availableLanguage' property is recommended for 'ContactPoint'","https://clubs.scholastic.com/mindfulness-in-a-jar/84365-rco-us.html"
+"ContactPoint","JSON-LD","Google Corporate Contact","Warning","538","'http://schema.org/contactOption' property is recommended for 'ContactPoint'","https://clubs.scholastic.com/mindfulness-in-a-jar/84365-rco-us.html"
+"Organization","Microdata","Google Social Profile","Error","537","'http://schema.org/url' property is required for 'Organization'","https://clubs.scholastic.com/ten-lucky-ladybugs/9781338116878-rco-us.html"
+"Organization","Microdata","Google Social Profile","Error","537","'http://schema.org/name' property is required for 'Organization'","https://clubs.scholastic.com/ten-lucky-ladybugs/9781338116878-rco-us.html"
+"Organization","JSON-LD","Google Corporate Contact","Error","530","'http://schema.org/url' property is required for 'Organization'","https://clubs.scholastic.com/mindfulness-in-a-jar/84365-rco-us.html"

@@ -1,0 +1,30 @@
+{% load i18n %}
+<script type="text/javascript">
+var go_from_select = function(opt) { window.location = window.location.pathname + opt };</script>
+<h3>{% blocktrans with title as filter_title %} By {{ filter_title }} {% endblocktrans %}</h3>
+<form name="category_search" type="get">
+
+<ul class="admin-filter-{{ title|cut:' ' }}">
+{% if choices|slice:"4:" %}
+    <li>
+    <select name="typed" class="form-control" style="width: 95%;margin-left: 2%;"
+        data-update="go_from_select(this.options[this.selectedIndex].value)">
+    {% for choice in choices %}
+        <option{% if choice.selected %} selected="selected"{% endif %}
+         value="{{ choice.query_string|iriencode }}">{{ choice.display }}</option>
+    {% endfor %}
+    </select>
+    </li>
+{% else %}
+
+    {% for choice in choices %}
+            <li{% if choice.selected %} class="selected"{% endif %}>
+            <a href="{{ choice.query_string|iriencode }}">{{ choice.display }}</a></li>
+    {% endfor %}
+
+{% endif %}
+</ul>
+
+<input type="submit" name="search" id="search" value="Search">
+
+</form>

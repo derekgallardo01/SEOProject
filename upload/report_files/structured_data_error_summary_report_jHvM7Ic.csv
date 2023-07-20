@@ -1,0 +1,4 @@
+﻿"Name","Format","Validation Type","Issue Severity","Number of URLs Affected","Issue Message","Sample URL Affected"
+"image","JSON-LD","Google Article","Warning","749","'http://schema.org/image' is recommended to be 'http://schema.org/ImageObject' or 'http://schema.org/URL' in 'BlogPosting'","https://www.bettersleep.com/blog/connection-between-physical-and-mental-health/"
+"Person","JSON-LD","Google Article","Warning","749","'http://schema.org/url' or 'http://schema.org/sameAs' property is recommended for 'Person'","https://www.bettersleep.com/blog/connection-between-physical-and-mental-health/"
+"headline","JSON-LD","Google Article","Warning","2","'http://schema.org/headline' property value is larger than recommended for 'BlogPosting'[<= 110]","https://www.bettersleep.com/blog/and-then-when-you-sleepy-momma-feel-so-fine-how-to-help-your-child-or-teen-overcome-their-insomnia/"
